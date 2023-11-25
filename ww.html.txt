@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Walmart Customer Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #0073e6;
+            color: white;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Walmart Customer Webpage</h1>
+    </header>
+
+    <button onclick="callWalmart()">Call Walmart: 7087456756</button>
+
+    <footer>
+        &copy; 2023 Walmart. All rights reserved.
+    </footer>
+
+    <script>
+        function callWalmart() {
+            alert("Calling Walmart at 7087456756");
+            // You can replace the alert with actual phone call functionality if needed.
+        }
+    </script>
+
+</body>
+</html>
